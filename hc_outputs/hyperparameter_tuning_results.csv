@@ -1,0 +1,6 @@
+Model,Test_F1_Macro,Best_Params
+LogisticRegression,0.6586,"{'logreg__solver': 'lbfgs', 'logreg__penalty': 'l2', 'logreg__class_weight': 'balanced', 'logreg__C': 0.01}"
+XGBoost,0.654,"{'xgb__subsample': 0.7, 'xgb__scale_pos_weight': 2, 'xgb__reg_lambda': 10, 'xgb__n_estimators': 100, 'xgb__min_child_weight': 3, 'xgb__max_depth': 4, 'xgb__learning_rate': 0.03, 'xgb__colsample_bytree': 0.7}"
+LinearSVM,0.6493,"{'lsvc__loss': 'hinge', 'lsvc__class_weight': 'balanced', 'lsvc__C': 0.1}"
+RandomForest,0.6362,"{'rf__n_estimators': 100, 'rf__min_samples_split': 5, 'rf__min_samples_leaf': 2, 'rf__max_features': 'log2', 'rf__max_depth': 10, 'rf__class_weight': 'balanced'}"
+MLP_1Layer,0.6316,"{'mlp__solver': 'adam', 'mlp__max_iter': 500, 'mlp__learning_rate_init': 0.005, 'mlp__learning_rate': 'constant', 'mlp__hidden_layer_sizes': (100,), 'mlp__early_stopping': True, 'mlp__alpha': 0.01, 'mlp__activation': 'tanh'}"

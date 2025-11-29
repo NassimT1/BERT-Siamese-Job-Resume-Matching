@@ -1,0 +1,8 @@
+Model,Fit_Time_s,Train_Accuracy,Train_F1_Macro,Test_Accuracy,Test_F1_Macro
+LogisticRegression,4.12,0.972,0.968,0.699,0.668
+LinearSVM,6.92,0.992,0.991,0.692,0.659
+MLP_1Layer,2.29,0.978,0.975,0.699,0.649
+XGBoost,3.20,0.999,0.999,0.688,0.64
+KNeighbors,0.04,0.923,0.914,0.664,0.625
+RandomForest,1.01,0.999,0.999,0.674,0.623
+DecisionTree,5.67,0.999,0.999,0.623,0.576

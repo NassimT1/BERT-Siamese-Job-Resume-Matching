@@ -1,0 +1,697 @@
+
+======================================================================
+Dataset Statistics:
+======================================================================
+Train: 4916 | Val: 519 | Test: 565
+Scale pos weight: 1.87
+======================================================================
+
+
+======================================================================
+STARTING OPTIMIZED GRID SEARCH (Regularized)
+======================================================================
+Total configurations to test: 48
+
+[Run 1] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.2057 | ValLoss=0.1868 | ValF1=0.5280 (thr=0.85)
+    Ep 2: TrainLoss=0.1701 | ValLoss=0.1708 | ValF1=0.5399 (thr=0.85)
+    Ep 3: TrainLoss=0.1578 | ValLoss=0.1560 | ValF1=0.5588 (thr=0.80)
+    Ep 4: TrainLoss=0.1477 | ValLoss=0.1524 | ValF1=0.5606 (thr=0.80)
+    Ep 5: TrainLoss=0.1365 | ValLoss=0.1462 | ValF1=0.5759 (thr=0.85)
+    Ep 6: TrainLoss=0.1295 | ValLoss=0.1537 | ValF1=0.5934 (thr=0.90)
+    Ep 7: TrainLoss=0.1231 | ValLoss=0.1541 | ValF1=0.5745 (thr=0.90)
+    Ep 8: TrainLoss=0.1187 | ValLoss=0.1484 | ValF1=0.5757 (thr=0.85)
+    Ep 9: TrainLoss=0.1165 | ValLoss=0.1487 | ValF1=0.5776 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5934
+   -> NEW GLOBAL BEST
+
+[Run 2] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1990 | ValLoss=0.2529 | ValF1=0.4962 (thr=0.90)
+    Ep 2: TrainLoss=0.1819 | ValLoss=0.2283 | ValF1=0.5263 (thr=0.90)
+    Ep 3: TrainLoss=0.1752 | ValLoss=0.2205 | ValF1=0.5367 (thr=0.90)
+    Ep 4: TrainLoss=0.1700 | ValLoss=0.1835 | ValF1=0.5933 (thr=0.90)
+    Ep 5: TrainLoss=0.1601 | ValLoss=0.1777 | ValF1=0.6000 (thr=0.90)
+    Ep 6: TrainLoss=0.1542 | ValLoss=0.1744 | ValF1=0.6070 (thr=0.90)
+    Ep 7: TrainLoss=0.1473 | ValLoss=0.1684 | ValF1=0.6078 (thr=0.90)
+    Ep 8: TrainLoss=0.1429 | ValLoss=0.1630 | ValF1=0.6345 (thr=0.90)
+    Ep 9: TrainLoss=0.1402 | ValLoss=0.1608 | ValF1=0.6389 (thr=0.90)
+    Ep 10: TrainLoss=0.1382 | ValLoss=0.1605 | ValF1=0.6456 (thr=0.90)
+   -> Run Best Val F1: 0.6456
+   -> NEW GLOBAL BEST
+
+[Run 3] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1913 | ValLoss=0.3067 | ValF1=0.4184 (thr=0.90)
+    Ep 2: TrainLoss=0.1835 | ValLoss=0.2790 | ValF1=0.4708 (thr=0.90)
+    Ep 3: TrainLoss=0.1812 | ValLoss=0.2493 | ValF1=0.5045 (thr=0.90)
+    Ep 4: TrainLoss=0.1770 | ValLoss=0.2219 | ValF1=0.5362 (thr=0.90)
+    Ep 5: TrainLoss=0.1709 | ValLoss=0.2116 | ValF1=0.5556 (thr=0.90)
+    Ep 6: TrainLoss=0.1674 | ValLoss=0.2063 | ValF1=0.5553 (thr=0.90)
+    Ep 7: TrainLoss=0.1656 | ValLoss=0.1960 | ValF1=0.5822 (thr=0.90)
+    Ep 8: TrainLoss=0.1626 | ValLoss=0.1936 | ValF1=0.5838 (thr=0.90)
+    Ep 9: TrainLoss=0.1609 | ValLoss=0.1894 | ValF1=0.5967 (thr=0.90)
+    Ep 10: TrainLoss=0.1584 | ValLoss=0.1894 | ValF1=0.5950 (thr=0.90)
+   -> Run Best Val F1: 0.5967
+
+[Run 4] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.2035 | ValLoss=0.1801 | ValF1=0.5255 (thr=0.85)
+    Ep 2: TrainLoss=0.1707 | ValLoss=0.1675 | ValF1=0.5424 (thr=0.85)
+    Ep 3: TrainLoss=0.1572 | ValLoss=0.1539 | ValF1=0.5917 (thr=0.90)
+    Ep 4: TrainLoss=0.1458 | ValLoss=0.1438 | ValF1=0.5969 (thr=0.85)
+    Ep 5: TrainLoss=0.1349 | ValLoss=0.1415 | ValF1=0.6400 (thr=0.90)
+    Ep 6: TrainLoss=0.1263 | ValLoss=0.1407 | ValF1=0.6591 (thr=0.90)
+    Ep 7: TrainLoss=0.1199 | ValLoss=0.1431 | ValF1=0.6667 (thr=0.90)
+    Ep 8: TrainLoss=0.1156 | ValLoss=0.1402 | ValF1=0.6764 (thr=0.90)
+    Ep 9: TrainLoss=0.1134 | ValLoss=0.1392 | ValF1=0.6739 (thr=0.90)
+    Ep 10: TrainLoss=0.1119 | ValLoss=0.1381 | ValF1=0.6788 (thr=0.90)
+   -> Run Best Val F1: 0.6788
+   -> NEW GLOBAL BEST
+
+[Run 5] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1974 | ValLoss=0.2523 | ValF1=0.5253 (thr=0.90)
+    Ep 2: TrainLoss=0.1797 | ValLoss=0.2201 | ValF1=0.5558 (thr=0.90)
+    Ep 3: TrainLoss=0.1733 | ValLoss=0.1918 | ValF1=0.5556 (thr=0.90)
+    Ep 4: TrainLoss=0.1661 | ValLoss=0.1803 | ValF1=0.5908 (thr=0.90)
+    Ep 5: TrainLoss=0.1592 | ValLoss=0.1767 | ValF1=0.6140 (thr=0.90)
+    Ep 6: TrainLoss=0.1542 | ValLoss=0.1618 | ValF1=0.5860 (thr=0.85)
+    Ep 7: TrainLoss=0.1473 | ValLoss=0.1608 | ValF1=0.5860 (thr=0.90)
+    Ep 8: TrainLoss=0.1442 | ValLoss=0.1575 | ValF1=0.6067 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6140
+
+[Run 6] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1905 | ValLoss=0.3035 | ValF1=0.4303 (thr=0.90)
+    Ep 2: TrainLoss=0.1834 | ValLoss=0.2665 | ValF1=0.4914 (thr=0.90)
+    Ep 3: TrainLoss=0.1785 | ValLoss=0.2350 | ValF1=0.5261 (thr=0.90)
+    Ep 4: TrainLoss=0.1752 | ValLoss=0.2185 | ValF1=0.5357 (thr=0.90)
+    Ep 5: TrainLoss=0.1719 | ValLoss=0.2191 | ValF1=0.5473 (thr=0.90)
+    Ep 6: TrainLoss=0.1673 | ValLoss=0.1950 | ValF1=0.5698 (thr=0.90)
+    Ep 7: TrainLoss=0.1651 | ValLoss=0.1914 | ValF1=0.5714 (thr=0.90)
+    Ep 8: TrainLoss=0.1599 | ValLoss=0.1850 | ValF1=0.5806 (thr=0.90)
+    Ep 9: TrainLoss=0.1600 | ValLoss=0.1841 | ValF1=0.5841 (thr=0.90)
+    Ep 10: TrainLoss=0.1592 | ValLoss=0.1838 | ValF1=0.5858 (thr=0.90)
+   -> Run Best Val F1: 0.5858
+
+[Run 7] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1932 | ValLoss=0.1836 | ValF1=0.5304 (thr=0.85)
+    Ep 2: TrainLoss=0.1605 | ValLoss=0.1556 | ValF1=0.5566 (thr=0.85)
+    Ep 3: TrainLoss=0.1410 | ValLoss=0.1430 | ValF1=0.5587 (thr=0.80)
+    Ep 4: TrainLoss=0.1255 | ValLoss=0.1522 | ValF1=0.5562 (thr=0.85)
+    Ep 5: TrainLoss=0.1143 | ValLoss=0.1576 | ValF1=0.5783 (thr=0.90)
+    Ep 6: TrainLoss=0.1058 | ValLoss=0.1494 | ValF1=0.5836 (thr=0.90)
+    Ep 7: TrainLoss=0.0986 | ValLoss=0.1481 | ValF1=0.5591 (thr=0.80)
+    Ep 8: TrainLoss=0.0935 | ValLoss=0.1509 | ValF1=0.5826 (thr=0.90)
+    Ep 9: TrainLoss=0.0913 | ValLoss=0.1485 | ValF1=0.5849 (thr=0.90)
+    Ep 10: TrainLoss=0.0913 | ValLoss=0.1489 | ValF1=0.5794 (thr=0.90)
+   -> Run Best Val F1: 0.5849
+
+[Run 8] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1928 | ValLoss=0.2191 | ValF1=0.5147 (thr=0.90)
+    Ep 2: TrainLoss=0.1743 | ValLoss=0.1954 | ValF1=0.5667 (thr=0.90)
+    Ep 3: TrainLoss=0.1615 | ValLoss=0.1835 | ValF1=0.5836 (thr=0.90)
+    Ep 4: TrainLoss=0.1488 | ValLoss=0.1594 | ValF1=0.6552 (thr=0.90)
+    Ep 5: TrainLoss=0.1320 | ValLoss=0.1521 | ValF1=0.6452 (thr=0.90)
+    Ep 6: TrainLoss=0.1191 | ValLoss=0.1471 | ValF1=0.6557 (thr=0.90)
+    Ep 7: TrainLoss=0.1108 | ValLoss=0.1400 | ValF1=0.6947 (thr=0.90)
+    Ep 8: TrainLoss=0.1060 | ValLoss=0.1464 | ValF1=0.6828 (thr=0.90)
+    Ep 9: TrainLoss=0.1041 | ValLoss=0.1414 | ValF1=0.6996 (thr=0.90)
+    Ep 10: TrainLoss=0.1036 | ValLoss=0.1430 | ValF1=0.6923 (thr=0.90)
+   -> Run Best Val F1: 0.6996
+   -> NEW GLOBAL BEST
+
+[Run 9] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1936 | ValLoss=0.2865 | ValF1=0.4535 (thr=0.90)
+    Ep 2: TrainLoss=0.1838 | ValLoss=0.2349 | ValF1=0.5187 (thr=0.90)
+    Ep 3: TrainLoss=0.1742 | ValLoss=0.2048 | ValF1=0.5464 (thr=0.90)
+    Ep 4: TrainLoss=0.1646 | ValLoss=0.1919 | ValF1=0.5869 (thr=0.90)
+    Ep 5: TrainLoss=0.1533 | ValLoss=0.1654 | ValF1=0.5839 (thr=0.90)
+    Ep 6: TrainLoss=0.1397 | ValLoss=0.1591 | ValF1=0.6258 (thr=0.90)
+    Ep 7: TrainLoss=0.1324 | ValLoss=0.1525 | ValF1=0.6488 (thr=0.90)
+    Ep 8: TrainLoss=0.1241 | ValLoss=0.1536 | ValF1=0.6622 (thr=0.90)
+    Ep 9: TrainLoss=0.1213 | ValLoss=0.1486 | ValF1=0.6553 (thr=0.90)
+    Ep 10: TrainLoss=0.1193 | ValLoss=0.1476 | ValF1=0.6553 (thr=0.90)
+   -> Run Best Val F1: 0.6622
+
+[Run 10] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1959 | ValLoss=0.1582 | ValF1=0.5630 (thr=0.80)
+    Ep 2: TrainLoss=0.1567 | ValLoss=0.1440 | ValF1=0.5771 (thr=0.80)
+    Ep 3: TrainLoss=0.1378 | ValLoss=0.1324 | ValF1=0.6154 (thr=0.85)
+    Ep 4: TrainLoss=0.1197 | ValLoss=0.1327 | ValF1=0.6742 (thr=0.90)
+    Ep 5: TrainLoss=0.1096 | ValLoss=0.1413 | ValF1=0.6574 (thr=0.90)
+    Ep 6: TrainLoss=0.1003 | ValLoss=0.1382 | ValF1=0.6784 (thr=0.90)
+    Ep 7: TrainLoss=0.0942 | ValLoss=0.1313 | ValF1=0.7106 (thr=0.90)
+    Ep 8: TrainLoss=0.0899 | ValLoss=0.1310 | ValF1=0.6989 (thr=0.90)
+    Ep 9: TrainLoss=0.0883 | ValLoss=0.1344 | ValF1=0.7059 (thr=0.90)
+    Ep 10: TrainLoss=0.0864 | ValLoss=0.1331 | ValF1=0.6914 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.7106
+   -> NEW GLOBAL BEST
+
+[Run 11] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1906 | ValLoss=0.2000 | ValF1=0.5282 (thr=0.90)
+    Ep 2: TrainLoss=0.1739 | ValLoss=0.1768 | ValF1=0.5455 (thr=0.85)
+    Ep 3: TrainLoss=0.1624 | ValLoss=0.1742 | ValF1=0.5561 (thr=0.85)
+    Ep 4: TrainLoss=0.1494 | ValLoss=0.1579 | ValF1=0.5420 (thr=0.80)
+    Ep 5: TrainLoss=0.1344 | ValLoss=0.1541 | ValF1=0.5516 (thr=0.75)
+    Ep 6: TrainLoss=0.1227 | ValLoss=0.1616 | ValF1=0.5538 (thr=0.85)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5561
+
+[Run 12] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.5}
+    Ep 1: TrainLoss=0.1886 | ValLoss=0.2657 | ValF1=0.4876 (thr=0.90)
+    Ep 2: TrainLoss=0.1804 | ValLoss=0.2421 | ValF1=0.5079 (thr=0.90)
+    Ep 3: TrainLoss=0.1732 | ValLoss=0.2097 | ValF1=0.5436 (thr=0.90)
+    Ep 4: TrainLoss=0.1641 | ValLoss=0.1891 | ValF1=0.5780 (thr=0.90)
+    Ep 5: TrainLoss=0.1531 | ValLoss=0.1766 | ValF1=0.6018 (thr=0.90)
+    Ep 6: TrainLoss=0.1421 | ValLoss=0.1520 | ValF1=0.6113 (thr=0.90)
+    Ep 7: TrainLoss=0.1338 | ValLoss=0.1496 | ValF1=0.6667 (thr=0.90)
+    Ep 8: TrainLoss=0.1288 | ValLoss=0.1683 | ValF1=0.6108 (thr=0.90)
+    Ep 9: TrainLoss=0.1254 | ValLoss=0.1537 | ValF1=0.6282 (thr=0.90)
+    Ep 10: TrainLoss=0.1239 | ValLoss=0.1570 | ValF1=0.6149 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6667
+
+[Run 13] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1605 | ValLoss=0.1557 | ValF1=0.4985 (thr=0.90)
+    Ep 2: TrainLoss=0.1371 | ValLoss=0.1507 | ValF1=0.5263 (thr=0.90)
+    Ep 3: TrainLoss=0.1284 | ValLoss=0.1400 | ValF1=0.5428 (thr=0.90)
+    Ep 4: TrainLoss=0.1201 | ValLoss=0.1296 | ValF1=0.5486 (thr=0.85)
+    Ep 5: TrainLoss=0.1135 | ValLoss=0.1300 | ValF1=0.5651 (thr=0.90)
+    Ep 6: TrainLoss=0.1074 | ValLoss=0.1288 | ValF1=0.5758 (thr=0.90)
+    Ep 7: TrainLoss=0.1039 | ValLoss=0.1238 | ValF1=0.5968 (thr=0.90)
+    Ep 8: TrainLoss=0.1008 | ValLoss=0.1245 | ValF1=0.5926 (thr=0.90)
+    Ep 9: TrainLoss=0.0991 | ValLoss=0.1240 | ValF1=0.6019 (thr=0.90)
+    Ep 10: TrainLoss=0.0991 | ValLoss=0.1236 | ValF1=0.6038 (thr=0.90)
+   -> Run Best Val F1: 0.6038
+
+[Run 14] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1584 | ValLoss=0.2125 | ValF1=0.4494 (thr=0.90)
+    Ep 2: TrainLoss=0.1458 | ValLoss=0.1988 | ValF1=0.4880 (thr=0.90)
+    Ep 3: TrainLoss=0.1407 | ValLoss=0.1714 | ValF1=0.5237 (thr=0.90)
+    Ep 4: TrainLoss=0.1361 | ValLoss=0.1533 | ValF1=0.5575 (thr=0.90)
+    Ep 5: TrainLoss=0.1292 | ValLoss=0.1520 | ValF1=0.5627 (thr=0.90)
+    Ep 6: TrainLoss=0.1265 | ValLoss=0.1406 | ValF1=0.5956 (thr=0.90)
+    Ep 7: TrainLoss=0.1220 | ValLoss=0.1427 | ValF1=0.5858 (thr=0.90)
+    Ep 8: TrainLoss=0.1184 | ValLoss=0.1380 | ValF1=0.5918 (thr=0.90)
+    Ep 9: TrainLoss=0.1176 | ValLoss=0.1386 | ValF1=0.5940 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5956
+
+[Run 15] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1522 | ValLoss=0.2509 | ValF1=0.3918 (thr=0.90)
+    Ep 2: TrainLoss=0.1488 | ValLoss=0.2291 | ValF1=0.4377 (thr=0.90)
+    Ep 3: TrainLoss=0.1453 | ValLoss=0.2042 | ValF1=0.4848 (thr=0.90)
+    Ep 4: TrainLoss=0.1411 | ValLoss=0.1830 | ValF1=0.4912 (thr=0.90)
+    Ep 5: TrainLoss=0.1376 | ValLoss=0.1657 | ValF1=0.5286 (thr=0.90)
+    Ep 6: TrainLoss=0.1338 | ValLoss=0.1630 | ValF1=0.5201 (thr=0.90)
+    Ep 7: TrainLoss=0.1293 | ValLoss=0.1581 | ValF1=0.5373 (thr=0.90)
+    Ep 8: TrainLoss=0.1285 | ValLoss=0.1603 | ValF1=0.5419 (thr=0.90)
+    Ep 9: TrainLoss=0.1266 | ValLoss=0.1584 | ValF1=0.5396 (thr=0.90)
+    Ep 10: TrainLoss=0.1263 | ValLoss=0.1573 | ValF1=0.5464 (thr=0.90)
+   -> Run Best Val F1: 0.5464
+
+[Run 16] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1677 | ValLoss=0.1610 | ValF1=0.5143 (thr=0.90)
+    Ep 2: TrainLoss=0.1392 | ValLoss=0.1539 | ValF1=0.5225 (thr=0.90)
+    Ep 3: TrainLoss=0.1300 | ValLoss=0.1349 | ValF1=0.5438 (thr=0.85)
+    Ep 4: TrainLoss=0.1208 | ValLoss=0.1313 | ValF1=0.5416 (thr=0.85)
+    Ep 5: TrainLoss=0.1142 | ValLoss=0.1182 | ValF1=0.5735 (thr=0.90)
+    Ep 6: TrainLoss=0.1074 | ValLoss=0.1225 | ValF1=0.6109 (thr=0.90)
+    Ep 7: TrainLoss=0.1033 | ValLoss=0.1194 | ValF1=0.5980 (thr=0.90)
+    Ep 8: TrainLoss=0.1006 | ValLoss=0.1199 | ValF1=0.5944 (thr=0.90)
+    Ep 9: TrainLoss=0.0986 | ValLoss=0.1196 | ValF1=0.5951 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6109
+
+[Run 17] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1523 | ValLoss=0.2056 | ValF1=0.4717 (thr=0.90)
+    Ep 2: TrainLoss=0.1443 | ValLoss=0.1837 | ValF1=0.4956 (thr=0.90)
+    Ep 3: TrainLoss=0.1389 | ValLoss=0.1695 | ValF1=0.5180 (thr=0.90)
+    Ep 4: TrainLoss=0.1341 | ValLoss=0.1579 | ValF1=0.5316 (thr=0.90)
+    Ep 5: TrainLoss=0.1281 | ValLoss=0.1555 | ValF1=0.5559 (thr=0.90)
+    Ep 6: TrainLoss=0.1223 | ValLoss=0.1519 | ValF1=0.5668 (thr=0.90)
+    Ep 7: TrainLoss=0.1178 | ValLoss=0.1410 | ValF1=0.5689 (thr=0.90)
+    Ep 8: TrainLoss=0.1153 | ValLoss=0.1474 | ValF1=0.5650 (thr=0.90)
+    Ep 9: TrainLoss=0.1124 | ValLoss=0.1422 | ValF1=0.5697 (thr=0.90)
+    Ep 10: TrainLoss=0.1124 | ValLoss=0.1427 | ValF1=0.5647 (thr=0.90)
+   -> Run Best Val F1: 0.5697
+
+[Run 18] Type: margin
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1518 | ValLoss=0.2567 | ValF1=0.3881 (thr=0.90)
+    Ep 2: TrainLoss=0.1478 | ValLoss=0.2423 | ValF1=0.3981 (thr=0.90)
+    Ep 3: TrainLoss=0.1460 | ValLoss=0.2197 | ValF1=0.4530 (thr=0.90)
+    Ep 4: TrainLoss=0.1432 | ValLoss=0.1903 | ValF1=0.4925 (thr=0.90)
+    Ep 5: TrainLoss=0.1401 | ValLoss=0.1908 | ValF1=0.4979 (thr=0.90)
+    Ep 6: TrainLoss=0.1368 | ValLoss=0.1734 | ValF1=0.5275 (thr=0.90)
+    Ep 7: TrainLoss=0.1346 | ValLoss=0.1733 | ValF1=0.5309 (thr=0.90)
+    Ep 8: TrainLoss=0.1327 | ValLoss=0.1664 | ValF1=0.5296 (thr=0.90)
+    Ep 9: TrainLoss=0.1305 | ValLoss=0.1630 | ValF1=0.5385 (thr=0.90)
+    Ep 10: TrainLoss=0.1305 | ValLoss=0.1636 | ValF1=0.5359 (thr=0.90)
+   -> Run Best Val F1: 0.5385
+
+[Run 19] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1513 | ValLoss=0.1432 | ValF1=0.5602 (thr=0.90)
+    Ep 2: TrainLoss=0.1255 | ValLoss=0.1204 | ValF1=0.5859 (thr=0.90)
+    Ep 3: TrainLoss=0.1113 | ValLoss=0.1238 | ValF1=0.5796 (thr=0.90)
+    Ep 4: TrainLoss=0.0988 | ValLoss=0.1184 | ValF1=0.5946 (thr=0.90)
+    Ep 5: TrainLoss=0.0879 | ValLoss=0.1212 | ValF1=0.5964 (thr=0.90)
+    Ep 6: TrainLoss=0.0816 | ValLoss=0.1222 | ValF1=0.5747 (thr=0.90)
+    Ep 7: TrainLoss=0.0776 | ValLoss=0.1263 | ValF1=0.5634 (thr=0.90)
+    Ep 8: TrainLoss=0.0738 | ValLoss=0.1292 | ValF1=0.5618 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5964
+
+[Run 20] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1526 | ValLoss=0.1928 | ValF1=0.4947 (thr=0.90)
+    Ep 2: TrainLoss=0.1396 | ValLoss=0.1570 | ValF1=0.5640 (thr=0.90)
+    Ep 3: TrainLoss=0.1295 | ValLoss=0.1437 | ValF1=0.5759 (thr=0.90)
+    Ep 4: TrainLoss=0.1202 | ValLoss=0.1394 | ValF1=0.5854 (thr=0.90)
+    Ep 5: TrainLoss=0.1064 | ValLoss=0.1269 | ValF1=0.5928 (thr=0.90)
+    Ep 6: TrainLoss=0.0998 | ValLoss=0.1446 | ValF1=0.5928 (thr=0.90)
+    Ep 7: TrainLoss=0.0948 | ValLoss=0.1411 | ValF1=0.5699 (thr=0.90)
+    Ep 8: TrainLoss=0.0901 | ValLoss=0.1255 | ValF1=0.5714 (thr=0.90)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5928
+
+[Run 21] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1553 | ValLoss=0.2654 | ValF1=0.3906 (thr=0.90)
+    Ep 2: TrainLoss=0.1483 | ValLoss=0.2305 | ValF1=0.4326 (thr=0.90)
+    Ep 3: TrainLoss=0.1437 | ValLoss=0.2004 | ValF1=0.4795 (thr=0.90)
+    Ep 4: TrainLoss=0.1381 | ValLoss=0.1742 | ValF1=0.5067 (thr=0.90)
+    Ep 5: TrainLoss=0.1341 | ValLoss=0.1532 | ValF1=0.5446 (thr=0.90)
+    Ep 6: TrainLoss=0.1280 | ValLoss=0.1508 | ValF1=0.5550 (thr=0.90)
+    Ep 7: TrainLoss=0.1232 | ValLoss=0.1500 | ValF1=0.5707 (thr=0.90)
+    Ep 8: TrainLoss=0.1186 | ValLoss=0.1367 | ValF1=0.5652 (thr=0.90)
+    Ep 9: TrainLoss=0.1153 | ValLoss=0.1383 | ValF1=0.5722 (thr=0.90)
+    Ep 10: TrainLoss=0.1147 | ValLoss=0.1375 | ValF1=0.5699 (thr=0.90)
+   -> Run Best Val F1: 0.5722
+
+[Run 22] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1554 | ValLoss=0.1334 | ValF1=0.5431 (thr=0.85)
+    Ep 2: TrainLoss=0.1281 | ValLoss=0.1252 | ValF1=0.6179 (thr=0.90)
+    Ep 3: TrainLoss=0.1111 | ValLoss=0.1161 | ValF1=0.5506 (thr=0.85)
+    Ep 4: TrainLoss=0.0976 | ValLoss=0.1256 | ValF1=0.6270 (thr=0.90)
+    Ep 5: TrainLoss=0.0880 | ValLoss=0.1111 | ValF1=0.6275 (thr=0.90)
+    Ep 6: TrainLoss=0.0810 | ValLoss=0.1099 | ValF1=0.6512 (thr=0.90)
+    Ep 7: TrainLoss=0.0770 | ValLoss=0.1163 | ValF1=0.6207 (thr=0.90)
+    Ep 8: TrainLoss=0.0732 | ValLoss=0.1105 | ValF1=0.6899 (thr=0.90)
+    Ep 9: TrainLoss=0.0714 | ValLoss=0.1084 | ValF1=0.6996 (thr=0.90)
+    Ep 10: TrainLoss=0.0706 | ValLoss=0.1080 | ValF1=0.6996 (thr=0.90)
+   -> Run Best Val F1: 0.6996
+
+[Run 23] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1510 | ValLoss=0.1976 | ValF1=0.4848 (thr=0.90)
+    Ep 2: TrainLoss=0.1422 | ValLoss=0.1697 | ValF1=0.5160 (thr=0.90)
+    Ep 3: TrainLoss=0.1344 | ValLoss=0.1404 | ValF1=0.5435 (thr=0.90)
+    Ep 4: TrainLoss=0.1231 | ValLoss=0.1327 | ValF1=0.5863 (thr=0.90)
+    Ep 5: TrainLoss=0.1129 | ValLoss=0.1223 | ValF1=0.5844 (thr=0.85)
+    Ep 6: TrainLoss=0.1035 | ValLoss=0.1175 | ValF1=0.5836 (thr=0.85)
+    Ep 7: TrainLoss=0.0965 | ValLoss=0.1172 | ValF1=0.6078 (thr=0.85)
+    Ep 8: TrainLoss=0.0920 | ValLoss=0.1152 | ValF1=0.5864 (thr=0.85)
+    Ep 9: TrainLoss=0.0894 | ValLoss=0.1171 | ValF1=0.5995 (thr=0.85)
+    Ep 10: TrainLoss=0.0891 | ValLoss=0.1174 | ValF1=0.5995 (thr=0.85)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6078
+
+[Run 24] Type: margin
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'margin': 0.6}
+    Ep 1: TrainLoss=0.1514 | ValLoss=0.2477 | ValF1=0.3974 (thr=0.90)
+    Ep 2: TrainLoss=0.1474 | ValLoss=0.2110 | ValF1=0.4444 (thr=0.90)
+    Ep 3: TrainLoss=0.1409 | ValLoss=0.1818 | ValF1=0.5100 (thr=0.90)
+    Ep 4: TrainLoss=0.1353 | ValLoss=0.1692 | ValF1=0.5271 (thr=0.90)
+    Ep 5: TrainLoss=0.1288 | ValLoss=0.1553 | ValF1=0.5455 (thr=0.90)
+    Ep 6: TrainLoss=0.1199 | ValLoss=0.1510 | ValF1=0.5617 (thr=0.90)
+    Ep 7: TrainLoss=0.1134 | ValLoss=0.1386 | ValF1=0.6074 (thr=0.90)
+    Ep 8: TrainLoss=0.1079 | ValLoss=0.1333 | ValF1=0.6367 (thr=0.90)
+    Ep 9: TrainLoss=0.1051 | ValLoss=0.1317 | ValF1=0.6309 (thr=0.90)
+    Ep 10: TrainLoss=0.1033 | ValLoss=0.1314 | ValF1=0.6316 (thr=0.90)
+   -> Run Best Val F1: 0.6367
+
+[Run 25] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2361 | ValLoss=0.1824 | ValF1=0.4885 (thr=0.70)
+    Ep 2: TrainLoss=0.1474 | ValLoss=0.1456 | ValF1=0.5266 (thr=0.65)
+    Ep 3: TrainLoss=0.1353 | ValLoss=0.1326 | ValF1=0.5656 (thr=0.65)
+    Ep 4: TrainLoss=0.1248 | ValLoss=0.1292 | ValF1=0.5737 (thr=0.65)
+    Ep 5: TrainLoss=0.1173 | ValLoss=0.1265 | ValF1=0.5859 (thr=0.65)
+    Ep 6: TrainLoss=0.1115 | ValLoss=0.1211 | ValF1=0.5855 (thr=0.60)
+    Ep 7: TrainLoss=0.1060 | ValLoss=0.1192 | ValF1=0.5812 (thr=0.60)
+    Ep 8: TrainLoss=0.1037 | ValLoss=0.1176 | ValF1=0.5750 (thr=0.55)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5859
+
+[Run 26] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2042 | ValLoss=0.1914 | ValF1=0.4990 (thr=0.70)
+    Ep 2: TrainLoss=0.1521 | ValLoss=0.1811 | ValF1=0.5173 (thr=0.75)
+    Ep 3: TrainLoss=0.1460 | ValLoss=0.2007 | ValF1=0.5329 (thr=0.80)
+    Ep 4: TrainLoss=0.1396 | ValLoss=0.1777 | ValF1=0.5523 (thr=0.75)
+    Ep 5: TrainLoss=0.1321 | ValLoss=0.1683 | ValF1=0.5714 (thr=0.65)
+    Ep 6: TrainLoss=0.1276 | ValLoss=0.1646 | ValF1=0.5728 (thr=0.65)
+    Ep 7: TrainLoss=0.1228 | ValLoss=0.1487 | ValF1=0.5749 (thr=0.75)
+    Ep 8: TrainLoss=0.1193 | ValLoss=0.1528 | ValF1=0.5755 (thr=0.75)
+    Ep 9: TrainLoss=0.1175 | ValLoss=0.1461 | ValF1=0.5745 (thr=0.70)
+    Ep 10: TrainLoss=0.1162 | ValLoss=0.1461 | ValF1=0.5784 (thr=0.70)
+   -> Run Best Val F1: 0.5784
+
+[Run 27] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1807 | ValLoss=0.2717 | ValF1=0.4294 (thr=0.75)
+    Ep 2: TrainLoss=0.1568 | ValLoss=0.2594 | ValF1=0.5078 (thr=0.85)
+    Ep 3: TrainLoss=0.1518 | ValLoss=0.2287 | ValF1=0.5450 (thr=0.80)
+    Ep 4: TrainLoss=0.1466 | ValLoss=0.2339 | ValF1=0.5689 (thr=0.85)
+    Ep 5: TrainLoss=0.1396 | ValLoss=0.2169 | ValF1=0.5723 (thr=0.85)
+    Ep 6: TrainLoss=0.1360 | ValLoss=0.2135 | ValF1=0.5785 (thr=0.80)
+    Ep 7: TrainLoss=0.1299 | ValLoss=0.2176 | ValF1=0.5930 (thr=0.80)
+    Ep 8: TrainLoss=0.1282 | ValLoss=0.2106 | ValF1=0.5973 (thr=0.80)
+    Ep 9: TrainLoss=0.1262 | ValLoss=0.2133 | ValF1=0.5978 (thr=0.80)
+    Ep 10: TrainLoss=0.1252 | ValLoss=0.2111 | ValF1=0.6011 (thr=0.80)
+   -> Run Best Val F1: 0.6011
+
+[Run 28] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2508 | ValLoss=0.1527 | ValF1=0.4314 (thr=0.55)
+    Ep 2: TrainLoss=0.1475 | ValLoss=0.1346 | ValF1=0.5368 (thr=0.60)
+    Ep 3: TrainLoss=0.1359 | ValLoss=0.1314 | ValF1=0.5714 (thr=0.65)
+    Ep 4: TrainLoss=0.1256 | ValLoss=0.1198 | ValF1=0.5824 (thr=0.65)
+    Ep 5: TrainLoss=0.1167 | ValLoss=0.1226 | ValF1=0.6195 (thr=0.70)
+    Ep 6: TrainLoss=0.1109 | ValLoss=0.1185 | ValF1=0.6212 (thr=0.70)
+    Ep 7: TrainLoss=0.1064 | ValLoss=0.1135 | ValF1=0.6199 (thr=0.70)
+    Ep 8: TrainLoss=0.1033 | ValLoss=0.1123 | ValF1=0.6063 (thr=0.65)
+    Ep 9: TrainLoss=0.1012 | ValLoss=0.1118 | ValF1=0.6174 (thr=0.65)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6212
+
+[Run 29] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1920 | ValLoss=0.2094 | ValF1=0.4824 (thr=0.75)
+    Ep 2: TrainLoss=0.1517 | ValLoss=0.1874 | ValF1=0.5358 (thr=0.75)
+    Ep 3: TrainLoss=0.1430 | ValLoss=0.1686 | ValF1=0.5754 (thr=0.75)
+    Ep 4: TrainLoss=0.1357 | ValLoss=0.1471 | ValF1=0.5840 (thr=0.70)
+    Ep 5: TrainLoss=0.1283 | ValLoss=0.1366 | ValF1=0.5668 (thr=0.65)
+    Ep 6: TrainLoss=0.1221 | ValLoss=0.1430 | ValF1=0.5821 (thr=0.75)
+    Ep 7: TrainLoss=0.1163 | ValLoss=0.1378 | ValF1=0.5714 (thr=0.60)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5840
+
+[Run 30] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1824 | ValLoss=0.2818 | ValF1=0.4341 (thr=0.75)
+    Ep 2: TrainLoss=0.1576 | ValLoss=0.2417 | ValF1=0.5395 (thr=0.80)
+    Ep 3: TrainLoss=0.1535 | ValLoss=0.2395 | ValF1=0.5393 (thr=0.80)
+    Ep 4: TrainLoss=0.1489 | ValLoss=0.2195 | ValF1=0.5657 (thr=0.85)
+    Ep 5: TrainLoss=0.1441 | ValLoss=0.2384 | ValF1=0.6061 (thr=0.90)
+    Ep 6: TrainLoss=0.1390 | ValLoss=0.2117 | ValF1=0.5855 (thr=0.85)
+    Ep 7: TrainLoss=0.1353 | ValLoss=0.2092 | ValF1=0.5918 (thr=0.85)
+    Ep 8: TrainLoss=0.1327 | ValLoss=0.2138 | ValF1=0.5819 (thr=0.85)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6061
+
+[Run 31] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1957 | ValLoss=0.1362 | ValF1=0.5344 (thr=0.60)
+    Ep 2: TrainLoss=0.1340 | ValLoss=0.1346 | ValF1=0.5931 (thr=0.75)
+    Ep 3: TrainLoss=0.1180 | ValLoss=0.1188 | ValF1=0.5864 (thr=0.65)
+    Ep 4: TrainLoss=0.1029 | ValLoss=0.1095 | ValF1=0.5898 (thr=0.65)
+    Ep 5: TrainLoss=0.0935 | ValLoss=0.1177 | ValF1=0.6370 (thr=0.75)
+    Ep 6: TrainLoss=0.0867 | ValLoss=0.1107 | ValF1=0.6219 (thr=0.65)
+    Ep 7: TrainLoss=0.0829 | ValLoss=0.1114 | ValF1=0.6642 (thr=0.70)
+    Ep 8: TrainLoss=0.0814 | ValLoss=0.1088 | ValF1=0.6979 (thr=0.75)
+    Ep 9: TrainLoss=0.0778 | ValLoss=0.1090 | ValF1=0.6943 (thr=0.70)
+    Ep 10: TrainLoss=0.0777 | ValLoss=0.1093 | ValF1=0.6917 (thr=0.70)
+   -> Run Best Val F1: 0.6979
+
+[Run 32] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1777 | ValLoss=0.2832 | ValF1=0.4605 (thr=0.80)
+    Ep 2: TrainLoss=0.1498 | ValLoss=0.1894 | ValF1=0.5143 (thr=0.80)
+    Ep 3: TrainLoss=0.1351 | ValLoss=0.1592 | ValF1=0.5455 (thr=0.65)
+    Ep 4: TrainLoss=0.1194 | ValLoss=0.1504 | ValF1=0.5428 (thr=0.70)
+    Ep 5: TrainLoss=0.1076 | ValLoss=0.1376 | ValF1=0.5548 (thr=0.55)
+    Ep 6: TrainLoss=0.1008 | ValLoss=0.1316 | ValF1=0.5649 (thr=0.60)
+    Ep 7: TrainLoss=0.0972 | ValLoss=0.1295 | ValF1=0.6035 (thr=0.60)
+    Ep 8: TrainLoss=0.0953 | ValLoss=0.1308 | ValF1=0.6061 (thr=0.65)
+    Ep 9: TrainLoss=0.0929 | ValLoss=0.1323 | ValF1=0.6098 (thr=0.70)
+    Ep 10: TrainLoss=0.0910 | ValLoss=0.1324 | ValF1=0.6119 (thr=0.65)
+   -> Run Best Val F1: 0.6119
+
+[Run 33] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1682 | ValLoss=0.3332 | ValF1=0.5220 (thr=0.85)
+    Ep 2: TrainLoss=0.1523 | ValLoss=0.2380 | ValF1=0.5533 (thr=0.85)
+    Ep 3: TrainLoss=0.1428 | ValLoss=0.2394 | ValF1=0.5887 (thr=0.90)
+    Ep 4: TrainLoss=0.1339 | ValLoss=0.2517 | ValF1=0.5695 (thr=0.90)
+    Ep 5: TrainLoss=0.1229 | ValLoss=0.2013 | ValF1=0.5610 (thr=0.80)
+    Ep 6: TrainLoss=0.1134 | ValLoss=0.1902 | ValF1=0.5705 (thr=0.80)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5887
+
+[Run 34] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2046 | ValLoss=0.1375 | ValF1=0.5280 (thr=0.65)
+    Ep 2: TrainLoss=0.1380 | ValLoss=0.1338 | ValF1=0.5912 (thr=0.70)
+    Ep 3: TrainLoss=0.1211 | ValLoss=0.1237 | ValF1=0.5316 (thr=0.60)
+    Ep 4: TrainLoss=0.1065 | ValLoss=0.1266 | ValF1=0.5704 (thr=0.70)
+    Ep 5: TrainLoss=0.0971 | ValLoss=0.1171 | ValF1=0.5714 (thr=0.55)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5912
+
+[Run 35] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1850 | ValLoss=0.1772 | ValF1=0.5075 (thr=0.70)
+    Ep 2: TrainLoss=0.1438 | ValLoss=0.1734 | ValF1=0.5575 (thr=0.75)
+    Ep 3: TrainLoss=0.1284 | ValLoss=0.1580 | ValF1=0.5541 (thr=0.75)
+    Ep 4: TrainLoss=0.1145 | ValLoss=0.1547 | ValF1=0.5723 (thr=0.70)
+    Ep 5: TrainLoss=0.1023 | ValLoss=0.1393 | ValF1=0.5779 (thr=0.75)
+    Ep 6: TrainLoss=0.0968 | ValLoss=0.1370 | ValF1=0.5828 (thr=0.65)
+    Ep 7: TrainLoss=0.0907 | ValLoss=0.1283 | ValF1=0.6164 (thr=0.70)
+    Ep 8: TrainLoss=0.0876 | ValLoss=0.1293 | ValF1=0.6124 (thr=0.70)
+    Ep 9: TrainLoss=0.0854 | ValLoss=0.1275 | ValF1=0.6118 (thr=0.70)
+    Ep 10: TrainLoss=0.0849 | ValLoss=0.1273 | ValF1=0.6107 (thr=0.70)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6164
+
+[Run 36] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.5, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1685 | ValLoss=0.3115 | ValF1=0.5068 (thr=0.85)
+    Ep 2: TrainLoss=0.1534 | ValLoss=0.2452 | ValF1=0.5779 (thr=0.85)
+    Ep 3: TrainLoss=0.1445 | ValLoss=0.2313 | ValF1=0.6080 (thr=0.90)
+    Ep 4: TrainLoss=0.1334 | ValLoss=0.2178 | ValF1=0.5764 (thr=0.80)
+    Ep 5: TrainLoss=0.1245 | ValLoss=0.2018 | ValF1=0.5882 (thr=0.80)
+    Ep 6: TrainLoss=0.1150 | ValLoss=0.2002 | ValF1=0.5682 (thr=0.70)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6080
+
+[Run 37] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2170 | ValLoss=0.1384 | ValF1=0.4921 (thr=0.65)
+    Ep 2: TrainLoss=0.1439 | ValLoss=0.1339 | ValF1=0.5608 (thr=0.65)
+    Ep 3: TrainLoss=0.1314 | ValLoss=0.1306 | ValF1=0.5659 (thr=0.65)
+    Ep 4: TrainLoss=0.1202 | ValLoss=0.1238 | ValF1=0.5736 (thr=0.70)
+    Ep 5: TrainLoss=0.1111 | ValLoss=0.1147 | ValF1=0.6058 (thr=0.70)
+    Ep 6: TrainLoss=0.1049 | ValLoss=0.1149 | ValF1=0.6374 (thr=0.65)
+    Ep 7: TrainLoss=0.1001 | ValLoss=0.1160 | ValF1=0.6390 (thr=0.70)
+    Ep 8: TrainLoss=0.0961 | ValLoss=0.1158 | ValF1=0.6370 (thr=0.65)
+    Ep 9: TrainLoss=0.0955 | ValLoss=0.1157 | ValF1=0.6328 (thr=0.65)
+    Ep 10: TrainLoss=0.0953 | ValLoss=0.1156 | ValF1=0.6466 (thr=0.65)
+   -> Run Best Val F1: 0.6466
+
+[Run 38] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1765 | ValLoss=0.2036 | ValF1=0.4923 (thr=0.75)
+    Ep 2: TrainLoss=0.1510 | ValLoss=0.1817 | ValF1=0.5431 (thr=0.75)
+    Ep 3: TrainLoss=0.1441 | ValLoss=0.1856 | ValF1=0.5478 (thr=0.75)
+    Ep 4: TrainLoss=0.1351 | ValLoss=0.1768 | ValF1=0.5926 (thr=0.85)
+    Ep 5: TrainLoss=0.1278 | ValLoss=0.1549 | ValF1=0.5796 (thr=0.70)
+    Ep 6: TrainLoss=0.1209 | ValLoss=0.1536 | ValF1=0.5917 (thr=0.75)
+    Ep 7: TrainLoss=0.1158 | ValLoss=0.1392 | ValF1=0.5912 (thr=0.75)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5926
+
+[Run 39] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1754 | ValLoss=0.3472 | ValF1=0.4854 (thr=0.85)
+    Ep 2: TrainLoss=0.1573 | ValLoss=0.3320 | ValF1=0.4977 (thr=0.85)
+    Ep 3: TrainLoss=0.1533 | ValLoss=0.3081 | ValF1=0.5540 (thr=0.90)
+    Ep 4: TrainLoss=0.1500 | ValLoss=0.2560 | ValF1=0.5878 (thr=0.90)
+    Ep 5: TrainLoss=0.1448 | ValLoss=0.2283 | ValF1=0.5723 (thr=0.85)
+    Ep 6: TrainLoss=0.1389 | ValLoss=0.2043 | ValF1=0.5890 (thr=0.85)
+    Ep 7: TrainLoss=0.1333 | ValLoss=0.1934 | ValF1=0.5937 (thr=0.80)
+    Ep 8: TrainLoss=0.1309 | ValLoss=0.1779 | ValF1=0.6030 (thr=0.80)
+    Ep 9: TrainLoss=0.1288 | ValLoss=0.1855 | ValF1=0.6030 (thr=0.80)
+    Ep 10: TrainLoss=0.1277 | ValLoss=0.1861 | ValF1=0.5988 (thr=0.80)
+   -> Run Best Val F1: 0.6030
+
+[Run 40] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2502 | ValLoss=0.1666 | ValF1=0.4813 (thr=0.65)
+    Ep 2: TrainLoss=0.1481 | ValLoss=0.1381 | ValF1=0.5239 (thr=0.60)
+    Ep 3: TrainLoss=0.1373 | ValLoss=0.1288 | ValF1=0.5355 (thr=0.60)
+    Ep 4: TrainLoss=0.1267 | ValLoss=0.1240 | ValF1=0.5594 (thr=0.60)
+    Ep 5: TrainLoss=0.1195 | ValLoss=0.1261 | ValF1=0.5896 (thr=0.75)
+    Ep 6: TrainLoss=0.1126 | ValLoss=0.1190 | ValF1=0.5887 (thr=0.70)
+    Ep 7: TrainLoss=0.1070 | ValLoss=0.1149 | ValF1=0.5786 (thr=0.65)
+    Ep 8: TrainLoss=0.1045 | ValLoss=0.1149 | ValF1=0.5957 (thr=0.65)
+    Ep 9: TrainLoss=0.1010 | ValLoss=0.1141 | ValF1=0.5839 (thr=0.65)
+    Ep 10: TrainLoss=0.1010 | ValLoss=0.1139 | ValF1=0.5839 (thr=0.65)
+   -> Run Best Val F1: 0.5957
+
+[Run 41] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1840 | ValLoss=0.1813 | ValF1=0.4788 (thr=0.70)
+    Ep 2: TrainLoss=0.1499 | ValLoss=0.1539 | ValF1=0.5491 (thr=0.70)
+    Ep 3: TrainLoss=0.1415 | ValLoss=0.1664 | ValF1=0.5738 (thr=0.85)
+    Ep 4: TrainLoss=0.1346 | ValLoss=0.1478 | ValF1=0.6309 (thr=0.80)
+    Ep 5: TrainLoss=0.1278 | ValLoss=0.1443 | ValF1=0.6367 (thr=0.80)
+    Ep 6: TrainLoss=0.1202 | ValLoss=0.1332 | ValF1=0.6340 (thr=0.80)
+    Ep 7: TrainLoss=0.1158 | ValLoss=0.1256 | ValF1=0.6335 (thr=0.75)
+    Ep 8: TrainLoss=0.1118 | ValLoss=0.1333 | ValF1=0.6800 (thr=0.75)
+    Ep 9: TrainLoss=0.1097 | ValLoss=0.1223 | ValF1=0.6347 (thr=0.75)
+    Ep 10: TrainLoss=0.1083 | ValLoss=0.1239 | ValF1=0.6594 (thr=0.75)
+   -> Run Best Val F1: 0.6800
+
+[Run 42] Type: hybrid
+   > Params: {'lr': 1e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1730 | ValLoss=0.2688 | ValF1=0.4573 (thr=0.80)
+    Ep 2: TrainLoss=0.1554 | ValLoss=0.2826 | ValF1=0.5204 (thr=0.85)
+    Ep 3: TrainLoss=0.1510 | ValLoss=0.2420 | ValF1=0.5645 (thr=0.85)
+    Ep 4: TrainLoss=0.1447 | ValLoss=0.2316 | ValF1=0.5801 (thr=0.85)
+    Ep 5: TrainLoss=0.1401 | ValLoss=0.2308 | ValF1=0.5660 (thr=0.85)
+    Ep 6: TrainLoss=0.1361 | ValLoss=0.2090 | ValF1=0.5896 (thr=0.85)
+    Ep 7: TrainLoss=0.1318 | ValLoss=0.2128 | ValF1=0.5882 (thr=0.85)
+    Ep 8: TrainLoss=0.1298 | ValLoss=0.1898 | ValF1=0.5873 (thr=0.80)
+    Ep 9: TrainLoss=0.1279 | ValLoss=0.1954 | ValF1=0.5865 (thr=0.75)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5896
+
+[Run 43] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2051 | ValLoss=0.1555 | ValF1=0.5426 (thr=0.75)
+    Ep 2: TrainLoss=0.1371 | ValLoss=0.1318 | ValF1=0.5667 (thr=0.65)
+    Ep 3: TrainLoss=0.1202 | ValLoss=0.1262 | ValF1=0.6041 (thr=0.65)
+    Ep 4: TrainLoss=0.1055 | ValLoss=0.1128 | ValF1=0.5986 (thr=0.65)
+    Ep 5: TrainLoss=0.0964 | ValLoss=0.1144 | ValF1=0.5931 (thr=0.60)
+    Ep 6: TrainLoss=0.0909 | ValLoss=0.1106 | ValF1=0.6228 (thr=0.60)
+    Ep 7: TrainLoss=0.0861 | ValLoss=0.1089 | ValF1=0.6667 (thr=0.65)
+    Ep 8: TrainLoss=0.0827 | ValLoss=0.1080 | ValF1=0.6772 (thr=0.70)
+    Ep 9: TrainLoss=0.0807 | ValLoss=0.1073 | ValF1=0.6824 (thr=0.70)
+    Ep 10: TrainLoss=0.0802 | ValLoss=0.1075 | ValF1=0.6850 (thr=0.70)
+   -> Run Best Val F1: 0.6850
+
+[Run 44] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1815 | ValLoss=0.2098 | ValF1=0.5420 (thr=0.80)
+    Ep 2: TrainLoss=0.1422 | ValLoss=0.1808 | ValF1=0.5692 (thr=0.75)
+    Ep 3: TrainLoss=0.1280 | ValLoss=0.1683 | ValF1=0.6211 (thr=0.80)
+    Ep 4: TrainLoss=0.1165 | ValLoss=0.1196 | ValF1=0.5873 (thr=0.75)
+    Ep 5: TrainLoss=0.1038 | ValLoss=0.1250 | ValF1=0.6250 (thr=0.65)
+    Ep 6: TrainLoss=0.0951 | ValLoss=0.1095 | ValF1=0.6378 (thr=0.70)
+    Ep 7: TrainLoss=0.0904 | ValLoss=0.1218 | ValF1=0.6618 (thr=0.75)
+    Ep 8: TrainLoss=0.0881 | ValLoss=0.1166 | ValF1=0.6641 (thr=0.75)
+    Ep 9: TrainLoss=0.0854 | ValLoss=0.1140 | ValF1=0.6763 (thr=0.70)
+    Ep 10: TrainLoss=0.0845 | ValLoss=0.1153 | ValF1=0.6573 (thr=0.70)
+   -> Run Best Val F1: 0.6763
+
+[Run 45] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 128, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1686 | ValLoss=0.2994 | ValF1=0.5407 (thr=0.85)
+    Ep 2: TrainLoss=0.1488 | ValLoss=0.2843 | ValF1=0.5801 (thr=0.90)
+    Ep 3: TrainLoss=0.1397 | ValLoss=0.2247 | ValF1=0.5784 (thr=0.90)
+    Ep 4: TrainLoss=0.1292 | ValLoss=0.1590 | ValF1=0.5721 (thr=0.65)
+    Ep 5: TrainLoss=0.1205 | ValLoss=0.1505 | ValF1=0.5915 (thr=0.70)
+    Ep 6: TrainLoss=0.1108 | ValLoss=0.1930 | ValF1=0.6344 (thr=0.85)
+    Ep 7: TrainLoss=0.1072 | ValLoss=0.1867 | ValF1=0.6433 (thr=0.85)
+    Ep 8: TrainLoss=0.1037 | ValLoss=0.1527 | ValF1=0.5789 (thr=0.60)
+    Ep 9: TrainLoss=0.1001 | ValLoss=0.1521 | ValF1=0.5871 (thr=0.60)
+    Ep 10: TrainLoss=0.0993 | ValLoss=0.1478 | ValF1=0.5860 (thr=0.60)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6433
+
+[Run 46] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.2098 | ValLoss=0.1350 | ValF1=0.5118 (thr=0.60)
+    Ep 2: TrainLoss=0.1374 | ValLoss=0.1364 | ValF1=0.5664 (thr=0.75)
+    Ep 3: TrainLoss=0.1194 | ValLoss=0.1186 | ValF1=0.5637 (thr=0.60)
+    Ep 4: TrainLoss=0.1043 | ValLoss=0.1220 | ValF1=0.5574 (thr=0.60)
+    Ep 5: TrainLoss=0.0951 | ValLoss=0.1114 | ValF1=0.6222 (thr=0.65)
+    Ep 6: TrainLoss=0.0873 | ValLoss=0.1164 | ValF1=0.6421 (thr=0.60)
+    Ep 7: TrainLoss=0.0837 | ValLoss=0.1185 | ValF1=0.6464 (thr=0.65)
+    Ep 8: TrainLoss=0.0805 | ValLoss=0.1185 | ValF1=0.6437 (thr=0.65)
+    Ep 9: TrainLoss=0.0789 | ValLoss=0.1165 | ValF1=0.6466 (thr=0.65)
+    Ep 10: TrainLoss=0.0783 | ValLoss=0.1168 | ValF1=0.6489 (thr=0.65)
+   -> Run Best Val F1: 0.6489
+
+[Run 47] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.3, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1852 | ValLoss=0.1780 | ValF1=0.5000 (thr=0.75)
+    Ep 2: TrainLoss=0.1450 | ValLoss=0.2008 | ValF1=0.5412 (thr=0.75)
+    Ep 3: TrainLoss=0.1307 | ValLoss=0.1537 | ValF1=0.5649 (thr=0.65)
+    Ep 4: TrainLoss=0.1140 | ValLoss=0.1585 | ValF1=0.5606 (thr=0.60)
+    Ep 5: TrainLoss=0.1024 | ValLoss=0.1703 | ValF1=0.5583 (thr=0.70)
+    Ep 6: TrainLoss=0.0946 | ValLoss=0.1591 | ValF1=0.5366 (thr=0.60)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.5649
+
+[Run 48] Type: hybrid
+   > Params: {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.5, 'batch_size': 128, 'weight_decay': 0.01} | Loss Params: {'gamma': 2.0, 'alpha': 0.75, 'margin': 0.6, 'focal_weight': 1.0, 'margin_weight': 0.3}
+    Ep 1: TrainLoss=0.1665 | ValLoss=0.2628 | ValF1=0.5056 (thr=0.80)
+    Ep 2: TrainLoss=0.1510 | ValLoss=0.2125 | ValF1=0.5487 (thr=0.80)
+    Ep 3: TrainLoss=0.1407 | ValLoss=0.2172 | ValF1=0.5640 (thr=0.85)
+    Ep 4: TrainLoss=0.1302 | ValLoss=0.2312 | ValF1=0.5869 (thr=0.85)
+    Ep 5: TrainLoss=0.1210 | ValLoss=0.2054 | ValF1=0.6080 (thr=0.80)
+    Ep 6: TrainLoss=0.1133 | ValLoss=0.1910 | ValF1=0.5752 (thr=0.80)
+    Ep 7: TrainLoss=0.1051 | ValLoss=0.1757 | ValF1=0.5517 (thr=0.70)
+    Ep 8: TrainLoss=0.1005 | ValLoss=0.1755 | ValF1=0.5593 (thr=0.65)
+ Early stopping triggered.
+   -> Run Best Val F1: 0.6080
+
+Best Global F1: 0.7106
+Best Config: {'loss_type': 'margin', 'loss_params': {'margin': 0.5}, 'model_config': {'lr': 2e-05, 'proj_dim': 256, 'dropout': 0.1, 'batch_size': 128, 'weight_decay': 0.01}}
+
+Extracting Embeddings (Best Model)...
+100%|██████████| 39/39 [00:15<00:00,  2.47it/s]
+100%|██████████| 5/5 [00:02<00:00,  2.40it/s]
+100%|██████████| 5/5 [00:02<00:00,  2.26it/s]
+
+Training Final XGBoost...
+
+======================================================================
+FINAL TEST EVALUATION
+======================================================================
+
+[Siamese Network (Best Config)]
+Threshold: 0.90
+Accuracy:  0.6796
+F1 Score:  0.5147
+Precision: 0.4593
+Recall:    0.5854
+
+[XGBoost Classifier]
+Threshold: 0.55
+Accuracy:  0.6832
+F1 Score:  0.5302
+Precision: 0.4654
+Recall:    0.6159
